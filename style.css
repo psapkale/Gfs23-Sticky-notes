@@ -124,3 +124,16 @@ body {
    text-align: center;
    margin-top: 100px;
 }
+
+.note {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px 0;
+   position: relative;
+   cursor: grab; /* Change cursor to indicate draggable */
+}
+
+.note.dragging {
+   opacity: 0.5; /* Make it semi-transparent while dragging */
+}
